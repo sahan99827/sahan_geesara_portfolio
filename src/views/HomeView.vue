@@ -1,11 +1,11 @@
 <script setup>
-import Project from "@/components/Project.vue";
-import Skills from "@/components/Skills.vue";
-import Education from "@/components/Education.vue";
-import WorkExperience from "@/components/WorkExperience.vue";
-import Contact from "@/components/Contact.vue";
-import About from "@/components/About.vue";
-import Welcome from "@/components/Welcome.vue";
+import Project from "../components/Project.vue";
+import Skills from "../components/Skills.vue";
+import Education from "../components/Education.vue";
+import WorkExperience from "../components/WorkExperience.vue";
+import Contact from "../components/Contact.vue";
+import About from "../components/About.vue";
+import Welcome from "../components/Welcome.vue";
 </script>
 
 <template>
