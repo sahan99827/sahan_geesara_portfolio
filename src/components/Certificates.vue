@@ -1,9 +1,9 @@
 <template>
-  <div class="textCenter">
+  <div class="textCenter mt-5 mb-5">
     <h1 style="font-weight: bold"> Certificates</h1>
     <p>What i archived</p>
   </div>
-  <div class="row justify-content-center mb-5">
+  <div class="row justify-content-center mt-5 mb-5">
       <div class="col-md-4 mb-5">
         <img class="image" src="/assets/Certificates/1.jpeg" alt="Image Description" width="400px" height="300px">
       </div>

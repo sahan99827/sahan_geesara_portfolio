@@ -31,6 +31,9 @@ import {RouterView } from 'vue-router'
               <a class="nav-link" href="#education">Education</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#certificate">Certificates</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#experience">Work experience</a>
             </li>
             <li class="nav-item">

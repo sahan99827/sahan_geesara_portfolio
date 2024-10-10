@@ -15,7 +15,7 @@ import Certificates from "@/components/Certificates.vue";
     <div id="about"><About /> </div>
     <div class="container col-12" id="skills"><Skills /> </div>
     <div id="project"><Project /> </div>
-    <div id="education"><Certificates /> </div>
+    <div id="certificate"><Certificates /> </div>
     <div id="education"><Education /> </div>
     <div id="experience"><WorkExperience /> </div>
     <div id="contact"><Contact /> </div>
