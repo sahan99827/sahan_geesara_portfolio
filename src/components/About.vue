@@ -38,7 +38,7 @@
         </div>
         <button @click="downloadFile" class="btn btn-dark" style="width: 300px;height: 60px;border-radius: 20px"> Download Resume <i class="bi bi-file-earmark-pdf"></i> </button>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 m-5">
         <img src="/assets/1.jpg" alt="Image Description" width="400px" height="300px" >
       </div>
     </div>
@@ -57,7 +57,7 @@
 img{
   object-fit: cover;
   border-radius: 180px;
-
+  border: black 6px solid;
 }
 .card{
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
