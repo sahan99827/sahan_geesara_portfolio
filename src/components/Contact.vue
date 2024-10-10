@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 mt-5">
         <form ref="form" @submit.prevent="sendEmail">
           <div class="form-floating mb-3">
             <input type="text" class="form-control" id="floatingInput"   name="user_name"  v-model="formData.name" placeholder="Nuwan Sandeep">
@@ -102,5 +102,11 @@ export default {
 .card{
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
 
+}
+@media (max-width: 490px) {
+   .card{
+    margin-left: 20px!important;
+    width: 17.7rem !important;
+  }
 }
 </style>

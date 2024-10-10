@@ -26,17 +26,17 @@
               <span>Online 24/7</span>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mt-4">
             <p><i class="bi bi-person-workspace"></i> Passionate Fullstack Developer with a knack for crafting innovative web solutions.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mt-4">
               <p><i class="bi bi-globe"></i> Fluent in both front-end and back-end technologies, I bring a holistic approach to web development.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 mt-4">
             <p><i class="bi bi-pencil-fill"></i> Dedicated to staying updated with the latest trends and best practices in the tech world.</p>
           </div>
         </div>
-        <button @click="downloadFile" class="btn btn-dark" style="width: 300px;height: 60px;border-radius: 20px"> Download Resume <i class="bi bi-file-earmark-pdf"></i> </button>
+        <button @click="downloadFile" class="btn btn-dark mt-5" style="width: 300px;height: 60px;border-radius: 20px"> Download Resume <i class="bi bi-file-earmark-pdf"></i> </button>
       </div>
       <div class="col-md-6">
         <img src="/assets/1.jpg" alt="Image Description" width="400px" height="300px" >
@@ -57,6 +57,10 @@
 @media (max-width: 490px) {
   img {
    margin-top: 40px;
+  }
+  .card{
+    margin-left: 75px!important;
+    width: 13rem !important;
   }
 }
 img{
