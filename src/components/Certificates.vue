@@ -1,0 +1,43 @@
+<template>
+  <div class="textCenter">
+    <h1 style="font-weight: bold"> Certificates</h1>
+    <p>What i archived</p>
+  </div>
+  <div class="row justify-content-center mb-5">
+      <div class="col-md-4 mb-5">
+        <img class="image" src="/assets/Certificates/1.jpeg" alt="Image Description" width="400px" height="300px">
+      </div>
+      <div class="col-md-4 mb-5">
+          <img class="image" src="/assets/Certificates/2.jpeg" alt="Image Description" width="400px" height="300px">
+      </div>
+      <div class="col-md-4 mb-5">
+        <img class="image" src="/assets/Certificates/3.jpeg" alt="Image Description" width="400px" height="300px">
+      </div>
+      <div class="col-md-4 mb-5">
+        <img class="image" src="/assets/Certificates/4.jpeg" alt="Image Description" width="400px" height="300px">
+      </div>
+      <div class="col-md-4 mb-5">
+        <img class="image" src="/assets/Certificates/5.jpeg" alt="Image Description" width="400px" height="300px">
+      </div>
+  </div>
+</template>
+<style scoped>
+.textCenter{
+  text-align: center;
+}
+.image {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0px 25px 24px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+
+}
+
+/* Animation on mouse hover */
+.image:hover {
+  //width: 450px;
+  //height: 300px;
+  transform: scale(1.5); /* Enlarges and rotates the image slightly */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+}
+</style>
+<script setup>
+</script>

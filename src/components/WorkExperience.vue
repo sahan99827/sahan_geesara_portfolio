@@ -1,8 +1,8 @@
 <template>
-  <div class="textCenter">
+  <div class="textCenter mt-5 mb-5">
     <h1 style="font-weight: bold"> Work Experience</h1>
   </div>
-  <div class="row justify-content-center">
+  <div class="row justify-content-center mt-5 mb-5">
   <div class="card col-md-12 m-3" style="width: 38rem;height:10rem;border-radius: 15px;">
     <div class="card-body m-3">
       <h4 style="text-align: center;font-weight: bold !important;">Internship (Laravel Developer)</h4>

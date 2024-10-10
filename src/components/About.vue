@@ -1,11 +1,11 @@
 <template>
-  <div class="textCenter">
+  <div class="textCenter mt-5 mb-5">
     <h1 style="font-weight: bold"> About Me</h1>
     <p>My Introduction</p>
   </div>
 
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mt-5 mb-5">
       <div class="col-md-6">
         <div class="row">
           <div class="card col-md-4 m-3" style="width: 11.9rem;border-radius: 15px;">

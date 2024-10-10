@@ -6,6 +6,7 @@ import WorkExperience from "../components/WorkExperience.vue";
 import Contact from "../components/Contact.vue";
 import About from "../components/About.vue";
 import Welcome from "../components/Welcome.vue";
+import Certificates from "@/components/Certificates.vue";
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import Welcome from "../components/Welcome.vue";
     <div id="about"><About /> </div>
     <div class="container col-12" id="skills"><Skills /> </div>
     <div id="project"><Project /> </div>
+    <div id="education"><Certificates /> </div>
     <div id="education"><Education /> </div>
     <div id="experience"><WorkExperience /> </div>
     <div id="contact"><Contact /> </div>

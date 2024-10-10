@@ -1,20 +1,20 @@
 <template>
 
-    <div class="textCenter">
+    <div class="textCenter m-5">
       <h1 style="font-weight: bold"> Skills</h1>
       <p>My Technical Level</p>
     </div>
 
   <div class="container ">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center m-5">
       <div class="card col-md-4 m-3" style="width: 20rem;border-radius: 15px;">
         <div class="card-body">
           <h4 style="text-align: center;font-weight: bold !important;">FrontEnd</h4>
           <ul type="none">
-            <li>Angular</li>
-            <li>vue</li>
-            <li>Html/CSS</li>
-            <li>JavaScript</li>
+            <li><i class="bi bi-star-fill"></i> Angular</li>
+            <li><i class="bi bi-star-fill"></i> vue</li>
+            <li><i class="bi bi-star-fill"></i> Html/CSS</li>
+            <li><i class="bi bi-star-fill"></i> JavaScript</li>
           </ul>
         </div>
       </div>
@@ -22,10 +22,10 @@
         <div class="card-body">
           <h4 style="text-align: center;  font-weight: bold !important;">BackEnd</h4>
           <ul type="none">
-            <li>PHP</li>
-            <li>JAVA</li>
-            <li>MySQL</li>
-            <li>Laravel</li>
+            <li><i class="bi bi-star-fill"></i> PHP</li>
+            <li><i class="bi bi-star-fill"></i> JAVA</li>
+            <li><i class="bi bi-star-fill"></i> MySQL</li>
+            <li><i class="bi bi-star-fill"></i> Laravel</li>
           </ul>
         </div>
       </div>
@@ -33,11 +33,11 @@
         <div class="card-body">
           <h4 style="text-align: center;  font-weight: bold !important;">Tool</h4>
           <ul type="none">
-            <li>GitHub</li>
-            <li>Jira</li>
-            <li>Postman</li>
-            <li>Intelli J</li>
-            <li>PhpStorm</li>
+            <li><i class="bi bi-star-fill"></i> GitHub</li>
+            <li><i class="bi bi-star-fill"></i> Jira</li>
+            <li><i class="bi bi-star-fill"></i> Postman</li>
+            <li><i class="bi bi-star-fill"></i> Intelli J</li>
+            <li><i class="bi bi-star-fill"></i> PhpStorm</li>
           </ul>
         </div>
       </div>

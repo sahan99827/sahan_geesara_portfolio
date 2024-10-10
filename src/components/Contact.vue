@@ -1,9 +1,9 @@
 <template>
-  <div class="textCenter">
+  <div class="textCenter mt-5 mb-5">
     <h1 style="font-weight: bold"> Get in Touch</h1>
     <p>Contact Me</p>
   </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mt-5 mb-5">
       <div class="col-md-6">
         <div class="row justify-content-center">
           <div class="card col-md-4 m-3" style="width: 11.9rem;border-radius: 15px;">
@@ -42,11 +42,11 @@
                    id="exampleFormControlInput2"  name="form_email" placeholder="name@example.com">
             <label for="exampleFormControlInput2" class="form-label">Email </label>
           </div>
-          <div class="form-floating mb-3">
-            <textarea class="form-control" id="exampleFormControlTextarea1" name="message"  rows="5"></textarea>
+          <div class="form-floating mb-5">
+            <textarea class="form-control" id="exampleFormControlTextarea1" name="message"  rows="12"></textarea>
             <label for="exampleFormControlTextarea1" class="form-label" style="height: 200px">Message</label>
           </div>
-          <button type="submit" class="btn btn-dark" style="width: 300px;height: 60px;border-radius: 20px">Send Message <i class="bi bi-send"></i> </button>
+          <button type="submit" class="btn btn-dark mb-5 mt-5" style="width: 300px;height: 60px;border-radius: 20px">Send Message <i class="bi bi-send"></i> </button>
         </form>
       </div>
     </div>
