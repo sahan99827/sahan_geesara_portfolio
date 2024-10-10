@@ -35,7 +35,7 @@
 img {
   object-fit: cover;
   border-radius: 180px;
-  border: #042eff 10px solid;
+  border: #042eff 5px solid;
   box-shadow: 0 30px 50px rgb(255, 255, 255);
   transition: transform 5s ease, border 5s ease; /* Add transition for smooth animation */
   animation: border-animation 5s infinite;
