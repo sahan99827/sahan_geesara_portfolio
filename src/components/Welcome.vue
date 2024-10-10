@@ -22,6 +22,11 @@
     height: auto;
   }
 }
+@media (max-width: 490px) {
+  img {
+    margin-top: 20px !important;
+  }
+}
 img{
   object-fit: cover;
   border-radius: 180px;

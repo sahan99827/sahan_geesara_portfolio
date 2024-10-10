@@ -3,7 +3,7 @@ import {RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div>
+  <div class="mb-5">
     <nav class="navbar navbar-expand-lg bg-light bg-body fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#home">Sahan</a>
