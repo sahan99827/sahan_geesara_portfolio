@@ -41,6 +41,11 @@
   .image {
     width:100%;
   }
+  .image:hover {
+
+    transform: none; /* Enlarges and rotates the image slightly */
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+  }
 }
 </style>
 <script setup>
