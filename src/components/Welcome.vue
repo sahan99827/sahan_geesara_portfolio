@@ -18,17 +18,17 @@
 <style scoped>
 @media (max-width: 768px) {
   img {
-    width: 100%;
+    width: auto;
     height: auto;
   }
 }
 
 @media (max-width: 490px) {
   img {
+    width: auto;
+    height: auto;
     margin-top: 20px !important;
-  }
-  img:hover {
-    transform: none;
+    margin-right: 9px !important;
   }
 }
 
