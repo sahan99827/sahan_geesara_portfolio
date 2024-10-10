@@ -34,19 +34,19 @@
       <div class="col-md-6">
         <form ref="form" @submit.prevent="sendEmail">
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput"   name="user_name" placeholder="Nuwan Sandeep">
+            <input type="text" class="form-control" id="floatingInput"   name="user_name"  v-model="formData.name" placeholder="Nuwan Sandeep">
             <label for="floatingInput" class="form-label">Name</label>
           </div>
           <div class="form-floating mb-3">
             <input type="email" class="form-control"
-                   id="exampleFormControlInput2"  name="form_email" placeholder="name@example.com">
+                   id="exampleFormControlInput2"  name="form_email" v-model="formData.email" placeholder="name@example.com">
             <label for="exampleFormControlInput2" class="form-label">Email </label>
           </div>
           <div class="form-floating mb-5">
-            <textarea class="form-control" id="exampleFormControlTextarea1" name="message"  rows="12"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" name="message"  v-model="formData.message" rows="12"></textarea>
             <label for="exampleFormControlTextarea1" class="form-label" style="height: 200px">Message</label>
           </div>
-          <button type="submit" class="btn btn-dark mb-5 mt-5" style="width: 300px;height: 60px;border-radius: 20px">Send Message <i class="bi bi-send"></i> </button>
+          <button type="submit" :disabled="!isFormValid || loading" class="btn btn-dark mb-5 mt-5" style="width: 300px;height: 60px;border-radius: 20px">{{ loading ? 'Sending...' : 'Send Message' }} <i class="bi bi-send"></i> </button>
         </form>
       </div>
     </div>
@@ -55,19 +55,41 @@
 import emailjs from '@emailjs/browser';
 
 export default {
+  data() {
+    return {
+      loading: false, // Tracks if the form is being submitted
+      formData: {
+        name: '',
+        email: '',
+        message: '',
+      },
+    };
+  },
+  computed: {
+    isFormValid() {
+      // Check if all fields have a value
+      return this.formData.name && this.formData.email && this.formData.message;
+    },
+  },
   methods: {
     sendEmail() {
+      this.loading = true; // Disable the button during submission
+
       emailjs
           .sendForm('service_jfkxjtz', 'template_1uxngrt', this.$refs.form, {
             publicKey: 'E3o89W-UvbW1YLFjg',
           })
           .then(
               () => {
-                console.log('SUCCESS!');
+                alert("Success! Your message has been sent.");
+                this.$refs.form.reset(); // Clear the form
+                this.formData = { name: '', email: '', message: '' }; // Reset formData
+                this.loading = false; // Re-enable the button
               },
               (error) => {
                 console.log('FAILED...', error.text);
-              },
+                this.loading = false; // Re-enable the button in case of failure
+              }
           );
     },
   },
