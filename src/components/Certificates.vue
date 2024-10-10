@@ -37,6 +37,11 @@
   transform: scale(1.5); /* Enlarges and rotates the image slightly */
   box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
 }
+@media (max-width: 490px) {
+  .image {
+    width:100%;
+  }
+}
 </style>
 <script setup>
 </script>

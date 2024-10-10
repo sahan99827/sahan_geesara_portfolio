@@ -33,6 +33,11 @@
   border: black 2px solid;
 
 }
+@media (max-width: 490px) {
+  .card {
+    width:100%;
+  }
+}
 p{
   text-align: center;
 }
