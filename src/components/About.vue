@@ -38,7 +38,7 @@
         </div>
         <button @click="downloadFile" class="btn btn-dark" style="width: 300px;height: 60px;border-radius: 20px"> Download Resume <i class="bi bi-file-earmark-pdf"></i> </button>
       </div>
-      <div class="col-md-6 m-5">
+      <div class="col-md-6">
         <img src="/assets/1.jpg" alt="Image Description" width="400px" height="300px" >
       </div>
     </div>
@@ -52,6 +52,11 @@
   img {
     width: 100%;
     height: auto;
+  }
+}
+@media (max-width: 490px) {
+  img {
+   margin-top: 40px;
   }
 }
 img{
