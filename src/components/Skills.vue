@@ -57,6 +57,8 @@
  }
  .card{
    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+   border: black 2px solid;
+
  }
 </style>
 <script setup>

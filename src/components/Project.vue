@@ -85,7 +85,8 @@
   text-align: center;
 }
 .card{
-  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+  box-shadow: 0px 27px 30px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+  border: black 2px solid;
 
 }
 </style>

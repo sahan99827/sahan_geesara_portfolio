@@ -3,7 +3,7 @@
     <h1 style="font-weight: bold"> Work Experience</h1>
   </div>
   <div class="row justify-content-center mt-5 mb-5">
-  <div class="card col-md-12 m-3" style="width: 38rem;height:10rem;border-radius: 15px;">
+  <div class="card col-md-12 m-3" style="width: 38rem;border-radius: 15px;">
     <div class="card-body m-3">
       <h4 style="text-align: center;font-weight: bold !important;">Internship (Laravel Developer)</h4>
       <p>Nexmatrixlab  => 2023/11/13 - 2024/05/13</p>
@@ -19,7 +19,8 @@
   text-align: center;
 }
 .card{
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+  box-shadow: 0px 30px 24px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+  border: black 2px solid;
 
 }
 p{

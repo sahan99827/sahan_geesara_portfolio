@@ -1,6 +1,6 @@
 <template>
-  <div class="row" >
-    <div class="col-md-6 ">
+  <div class="row">
+    <div class="col-md-6">
       <img src="/assets/1.png" alt="Image Description" width="400" height="500" >
     </div>
     <div class="col-md-6">
@@ -25,6 +25,7 @@
 img{
   object-fit: cover;
   border-radius: 180px;
+  border: #0bb132 4px solid;
 }
 </style>
 <script setup>

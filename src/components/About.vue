@@ -20,7 +20,7 @@
               <span>2+ Projects</span>
             </div>
           </div>
-          <div class="card col-md-4 m-3" style="width: 11rem;border-radius: 15px;">
+          <div class="card col-md-4 m-3" style="width: 11.1rem;border-radius: 15px;">
             <div class="card-body">
               <h4> Support </h4>
               <span>Online 24/7</span>
@@ -57,6 +57,7 @@
 img{
   object-fit: cover;
   border-radius: 180px;
+
 }
 .card{
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
