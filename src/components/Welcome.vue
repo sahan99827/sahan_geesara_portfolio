@@ -65,9 +65,9 @@ a{
     text-align: center;
   }
   .margH1{
-    margin-top: -100px !important;
+    margin-top: -50px !important;
     margin-left: 140px !important;
-  margin-bottom: 60px;
+    margin-bottom: 60px;
   }
 }
 
