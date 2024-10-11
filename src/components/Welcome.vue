@@ -49,10 +49,11 @@ a{
 }
 @media (max-width: 490px) {
   img {
-    width: auto;
-    height: auto;
+    width: auto  !important;
+    height: auto  !important;
     margin-top: 30px !important;
-    margin-right: 9px !important;
+    margin-left: 60px !important;
+    align-content: center;
   }
   h1{
     margin-top: 60px !important;
