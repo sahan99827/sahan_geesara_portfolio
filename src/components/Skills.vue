@@ -34,6 +34,7 @@
           <h4 style="text-align: center;  font-weight: bold !important;">Tool</h4>
           <ul type="none">
             <li><i class="bi bi-star-fill"></i> GitHub</li>
+            <li><i class="bi bi-star-fill"></i> GitLab</li>
             <li><i class="bi bi-star-fill"></i> Jira</li>
             <li><i class="bi bi-star-fill"></i> Postman</li>
             <li><i class="bi bi-star-fill"></i> Intelli J</li>

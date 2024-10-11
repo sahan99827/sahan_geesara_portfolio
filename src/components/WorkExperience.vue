@@ -30,6 +30,13 @@
     margin-left: 29px !important;
   }
 }
+@media (max-width: 400px) {
+  .card {
+    width:364px !important;
+    margin-right: 66px !important;
+    margin-left: 69px !important;
+  }
+}
 p{
   text-align: center;
 }
