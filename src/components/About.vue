@@ -4,9 +4,13 @@
     <p>My Introduction</p>
   </div>
 
+
   <div class="container">
     <div class="row justify-content-center mt-5 mb-5">
-      <div class="col-md-6">
+      <div class="col-md-6 mt-5">
+        <img src="/assets/1.jpg" alt="Image Description" width="400px" height="300px" >
+      </div>
+      <div class="col-md-6 mt-5">
         <div class="row">
           <div class="card col-md-4 m-3" style="width: 11.9rem;border-radius: 15px;">
             <div class="card-body">
@@ -38,9 +42,7 @@
         </div>
         <button @click="downloadFile" class="btn btn-dark mt-5" style="width: 300px;height: 60px;border-radius: 20px"> Download Resume <i class="bi bi-file-earmark-pdf"></i> </button>
       </div>
-      <div class="col-md-6">
-        <img src="/assets/1.jpg" alt="Image Description" width="400px" height="300px" >
-      </div>
+
     </div>
   </div>
 </template>

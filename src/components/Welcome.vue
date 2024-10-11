@@ -1,15 +1,23 @@
 <template>
   <div class="row">
-    <div class="col-md-6">
-      <img src="/assets/1.png" alt="Image Description" style="width:400px; height:500px"  >
+      <div class="col-md-6 mt-5 ">
+        <div class="margH1">
+          <h1><strong><em>Sahan Geesara</em></strong></h1>
+          <h5 class="mb-4"><strong><em>FullStack Developer</em></strong></h5>
+          <p>Hi! I'm creative Developer Based in Sri Lanka, and <br /> I'm Very passionate and dedicated to my work</p>
+          <p><i class="bi bi-star-fill"></i> Quick Learner</p>
+          <p><i class="bi bi-star-fill"></i> A Team Player</p>
+          <p><i class="bi bi-star-fill"></i> Hard Worker</p>
+          <div class="row marg">
+            <a href="https://www.instagram.com/sahan_g_samarawicrama_?igsh=czNwaHV4ZmhqZ2s5"><i class="icon bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sahan-g-samaravickrama-83b5001aa/"><i class="icon bi bi-linkedin"></i></a>
+            <a href="https://github.com/sahan99827"><i class="icon bi bi-github"></i></a>
+          </div>
+        </div>
+
     </div>
-    <div class="col-md-6">
-      <h1><strong><em>Sahan Geesara</em></strong></h1>
-      <h5 class="mb-4"><strong><em>FullStack Developer</em></strong></h5>
-      <p>Hi! I'm creative Developer Based in Sri Lanka, and <br /> I'm Very passionate and dedicated to my work</p>
-      <p><i class="bi bi-star-fill"></i> Quick Learner</p>
-      <p><i class="bi bi-star-fill"></i> A Team Player</p>
-      <p><i class="bi bi-star-fill"></i> Hard Worker</p>
+    <div class="col-md-6 mt-5 mb-5">
+      <img src="/assets/1.png" alt="Image Description" style="width:400px; height:500px"  >
     </div>
   </div>
 
@@ -22,7 +30,23 @@
     height: auto;
   }
 }
+.icon{
+  margin-top: 10px !important;
+  font-size: 40px !important;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.marg{
+  margin-top: -260px !important;
+  margin-left: -140px !important;
+}
+.margH1{
+  margin-top: 100px !important;
+  margin-left: 140px !important;
 
+}
 @media (max-width: 490px) {
   img {
     width: auto;
@@ -36,7 +60,6 @@
   }
   h5{
     text-align: center;
-
   }
 }
 
