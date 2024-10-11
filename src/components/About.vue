@@ -7,8 +7,10 @@
 
   <div class="container">
     <div class="row justify-content-center mt-5 mb-5">
-      <div class="col-md-6 mt-5">
-        <img src="/assets/1.jpg" alt="Image Description" width="400px" height="300px" >
+      <div class="col-md-6 mt-5 mb-5">
+        <div>
+          <img src="/assets/1.jpg" alt="Image Description" width="400px" height="300px" >
+        </div>
       </div>
       <div class="col-md-6 mt-5">
         <div class="row">

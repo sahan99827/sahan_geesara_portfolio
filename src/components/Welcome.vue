@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-      <div class="col-md-6 mt-5 ">
+      <div class="col-md-6">
         <div class="margH1">
           <h1><strong><em>Sahan Geesara</em></strong></h1>
           <h5 class="mb-4"><strong><em>FullStack Developer</em></strong></h5>
@@ -17,7 +17,9 @@
 
     </div>
     <div class="col-md-6 mt-5 mb-5">
-      <img src="/assets/1.png" alt="Image Description" style="width:400px; height:500px"  >
+      <div>
+        <img src="/assets/1.png" alt="Image Description" style="width:auto; height:auto">
+      </div>
     </div>
   </div>
 
@@ -43,7 +45,7 @@ a{
   margin-left: -140px !important;
 }
 .margH1{
-  margin-top: 100px !important;
+  margin-top: 90px !important;
   margin-left: 140px !important;
 
 }
