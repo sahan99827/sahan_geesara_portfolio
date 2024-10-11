@@ -13,6 +13,7 @@
               </div>
               <h4> Email </h4>
               <p>geesarasahan0123@gmail.com</p>
+              <a href="#emailForm">Write me <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <div class="card col-md-4 m-3" style="width: 11.5rem;border-radius: 15px;">
@@ -20,6 +21,7 @@
               <i class="bi bi-whatsapp"></i>
               <h4> Whatsapp </h4>
               <p>+94 78 8392 166</p>
+              <a href="https://wa.me/qr/H7BXGMNNP5Z3A1" target="_blank">Write me <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <div class="card col-md-4 m-3" style="width: 11rem;border-radius: 15px;">
@@ -27,12 +29,13 @@
               <i class="bi bi-facebook"></i>
               <h4> Facebook </h4>
               <p> sahan-g-samaravicrama</p>
+              <a href="https://www.facebook.com/@sahan.gsamaravicrama/" target="_blank">Write me <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-6 mt-5">
-        <form ref="form" @submit.prevent="sendEmail">
+        <form id="emailForm" ref="form" @submit.prevent="sendEmail">
           <div class="form-floating mb-3">
             <input type="text" class="form-control" id="floatingInput"   name="user_name"  v-model="formData.name" placeholder="Nuwan Sandeep">
             <label for="floatingInput" class="form-label">Name</label>
@@ -104,9 +107,13 @@ export default {
 
 }
 @media (max-width: 490px) {
-   .card{
-    margin-left: 20px!important;
+  .card {
+    margin-left: 20px !important;
     width: 17.7rem !important;
   }
+}
+a{
+  text-decoration: none ;
+  color: black;
 }
 </style>

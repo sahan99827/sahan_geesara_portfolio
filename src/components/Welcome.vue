@@ -9,9 +9,9 @@
           <p><i class="bi bi-star-fill"></i> A Team Player</p>
           <p><i class="bi bi-star-fill"></i> Hard Worker</p>
           <div class="row marg">
-            <a href="https://www.instagram.com/sahan_g_samarawicrama_?igsh=czNwaHV4ZmhqZ2s5"><i class="icon bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/sahan-g-samaravickrama-83b5001aa/"><i class="icon bi bi-linkedin"></i></a>
-            <a href="https://github.com/sahan99827"><i class="icon bi bi-github"></i></a>
+            <a href="https://www.instagram.com/sahan_g_samarawicrama_?igsh=czNwaHV4ZmhqZ2s5" target="_blank"><i class="icon bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sahan-g-samaravickrama-83b5001aa/" target="_blank"><i class="icon bi bi-linkedin"></i></a>
+            <a href="https://github.com/sahan99827" target="_blank"><i class="icon bi bi-github"></i></a>
           </div>
         </div>
 
