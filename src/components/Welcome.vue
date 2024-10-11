@@ -51,7 +51,7 @@ a{
   img {
     width: auto;
     height: auto;
-    margin-top: 20px !important;
+    margin-top: 30px !important;
     margin-right: 9px !important;
   }
   h1{
@@ -60,6 +60,11 @@ a{
   }
   h5{
     text-align: center;
+  }
+  .margH1{
+    margin-top: -100px !important;
+    margin-left: 140px !important;
+  margin-bottom: 60px;
   }
 }
 

@@ -39,10 +39,13 @@
 }
 @media (max-width: 490px) {
   .image {
-    width:100%;
+    width:300px !important;
+    height: 180px  ;
+    margin-left: 45px !important;
+    box-shadow: 0px 65px 44px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
+
   }
   .image:hover {
-
     transform: none; /* Enlarges and rotates the image slightly */
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
   }
