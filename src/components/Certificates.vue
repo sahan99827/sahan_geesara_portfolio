@@ -19,6 +19,9 @@
       <div class="col-md-4 mb-5">
         <img class="image" src="/assets/Certificates/5.jpeg" alt="Image Description" width="400px">
       </div>
+      <div class="col-md-4 mb-5">
+        <img class="image" src="/assets/Certificates/6.jpg" alt="Image Description" width="400px">
+      </div>
   </div>
 </template>
 <style scoped>
