@@ -73,6 +73,19 @@
           </div>
         </div>
 
+        <div class="card col-md-6 m-3" style="width: 28rem;border-radius: 15px;">
+          <div class="card-body">
+            <h4 style="text-align: center;font-weight: bold !important;">Bus Booking system</h4><br>
+            <div class="row">
+              <img src="/assets/Bus_Booking_system.png" alt="Image Description" width="400px" >
+            </div><br>
+            <div class="row">
+              <p>Bus Booking system use to booking Seat and Ticket.</p>
+            </div>
+            <span class="col-md-4"><strong>PHP</strong> </span> <span class="col-md-4"><strong>HTML/CSS</strong></span> <span class="col-md-4"><strong>Java Script</strong></span>
+          </div>
+        </div>
+
       </div>
 
 
