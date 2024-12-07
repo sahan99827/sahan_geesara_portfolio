@@ -28,8 +28,11 @@
 <style scoped>
 @media (max-width: 768px) {
   img {
-    width: auto;
-    height: auto;
+    width: 300px;
+    height: 500px;
+    margin-top: 30px !important;
+    margin-left: 60px !important;
+    align-content: center;
   }
 }
 .icon{
@@ -51,7 +54,7 @@ a{
 }
 @media (max-width: 490px) {
   img {
-    width: auto  !important;
+    width: 300px  !important;
     height: auto  !important;
     margin-top: 30px !important;
     margin-left: 60px !important;
