@@ -30,8 +30,8 @@
   img {
     width: 300px;
     height: 500px;
-    margin-top: 30px !important;
-    margin-left: 60px !important;
+    margin-top: 50px !important;
+    margin-left: 100px !important;
     align-content: center;
   }
 }
