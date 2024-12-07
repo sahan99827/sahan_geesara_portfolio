@@ -18,7 +18,7 @@
     </div>
     <div class="col-md-6 mt-5 mb-5">
       <div>
-        <img src="/assets/1.png" alt="Image Description" style="width:auto; height:auto">
+        <img src="/assets/1.png" alt="Image Description" style="width:300px; height:400px">
       </div>
     </div>
   </div>
