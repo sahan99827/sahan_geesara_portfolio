@@ -7,29 +7,39 @@
 
   <div class="container ">
     <div class="row justify-content-center m-5">
-      <div class="card col-md-4 m-3" style="width: 20rem;border-radius: 15px;">
+      <div class="card col-md-3 m-3" style="width: 20rem;border-radius: 15px;">
         <div class="card-body">
           <h4 style="text-align: center;font-weight: bold !important;">FrontEnd</h4>
           <ul type="none">
             <li><i class="bi bi-star-fill"></i> Angular</li>
-            <li><i class="bi bi-star-fill"></i> vue</li>
+            <li><i class="bi bi-star-fill"></i> Vue js</li>
+            <li><i class="bi bi-star-fill"></i> React</li>
             <li><i class="bi bi-star-fill"></i> Html/CSS</li>
             <li><i class="bi bi-star-fill"></i> JavaScript</li>
           </ul>
         </div>
       </div>
-      <div class="card col-md-4 m-3" style="width: 20rem;border-radius: 15px;">
+      <div class="card col-md-3 m-3" style="width: 20rem;border-radius: 15px;">
         <div class="card-body">
           <h4 style="text-align: center;  font-weight: bold !important;">BackEnd</h4>
           <ul type="none">
             <li><i class="bi bi-star-fill"></i> PHP</li>
             <li><i class="bi bi-star-fill"></i> JAVA</li>
-            <li><i class="bi bi-star-fill"></i> MySQL</li>
+            <li><i class="bi bi-star-fill"></i> Spring Boot</li>
             <li><i class="bi bi-star-fill"></i> Laravel</li>
           </ul>
         </div>
       </div>
-      <div class="card col-md-4 m-3" style="width: 20rem;border-radius: 15px;">
+      <div class="card col-md-3 m-3" style="width: 20rem;border-radius: 15px;">
+        <div class="card-body">
+          <h4 style="text-align: center;  font-weight: bold !important;">SQL</h4>
+          <ul type="none">
+            <li><i class="bi bi-star-fill"></i> MySQL</li>
+            <li><i class="bi bi-star-fill"></i> MsSQL</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card col-md-3 m-3" style="width: 20rem;border-radius: 15px;">
         <div class="card-body">
           <h4 style="text-align: center;  font-weight: bold !important;">Tool</h4>
           <ul type="none">
