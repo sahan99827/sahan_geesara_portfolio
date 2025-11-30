@@ -7,7 +7,7 @@
       <div class="card-body m-4">
         <h4 style="text-align: center;font-weight: bold !important;">GCE Advanced Level Exam - 2018</h4>
         <p>Royal Central College - Polonnaruwa (2005 - 2018)</p>
-        <p>Sat for the exam in commerce stream with ICT stream.</p>
+        <p>Sat for the exam in commerce stream with ICT subject.</p>
       </div>
     </div>
   </div>

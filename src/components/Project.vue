@@ -188,7 +188,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-<script>
+<script scoped>
 document.addEventListener("DOMContentLoaded", () => {
 
   const cards = Array.from(document.querySelectorAll("#projectContainer .card"));

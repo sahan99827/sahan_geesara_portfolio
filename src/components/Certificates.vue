@@ -68,7 +68,7 @@
 }
 
 </style>
-<script setup>
+<script scoped>
 document.addEventListener("DOMContentLoaded", () => {
 
   // Select all certificate items
