@@ -83,6 +83,49 @@ img {
 h1:hover {
     color: #0128f6;
 }
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomFloat {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(20px);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    transform: scale(1.03) translateY(-5px);
+  }
+}
+
+.margH1, .margH1 h1, .margH1 h5, .margH1 p {
+  animation: fadeSlide 1s ease forwards;
+}
+
+img {
+  animation: zoomFloat 1.6s ease forwards;
+}
+
+h1:hover, h5:hover, p:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+img:hover {
+  transform: scale(1.08);
+  transition: 0.4s ease;
+}
+
 </style>
 <script setup>
 </script>
