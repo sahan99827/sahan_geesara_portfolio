@@ -7,9 +7,9 @@
 
   <div class="container">
     <div class="row justify-content-center mt-5 mb-5">
-      <div class="col-md-6 mt-5 mb-5">
+      <div class="col-md-6 mt-3 mb-5">
         <div>
-          <img src="/assets/1.jpg" alt="Image Description" width="400px" height="300px" >
+          <img src="/assets/ani.png" alt="Image Description" width="480px" height="400px" >
         </div>
       </div>
       <div class="col-md-6 mt-5">
@@ -69,8 +69,8 @@
 }
 img{
   object-fit: cover;
-  border-radius: 180px;
-  border: black 6px solid;
+  border-radius: 150px;
+  border: rgb(253, 0, 0) 6px solid;
 }
 .card{
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
