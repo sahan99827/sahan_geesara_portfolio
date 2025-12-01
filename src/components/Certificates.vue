@@ -1,7 +1,7 @@
 <template>
   <div class="textCenter mt-5 mb-5">
     <h1 style="font-weight: bold"> Certificates</h1>
-    <p>What i archived</p>
+    <p>What i Achieved</p>
   </div>
   <div class="row justify-content-center mt-5 mb-5" id="cetificateContainer">
     <div class="col-md-4 mb-5">
