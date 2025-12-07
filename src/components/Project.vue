@@ -159,6 +159,19 @@
           </div>
         </div>
 
+        <div class="card col-md-6 m-3" style="width: 28rem;border-radius: 15px;">
+          <div class="card-body">
+            <h4 style="text-align: center;font-weight: bold !important;">Tex Calculator System</h4><br>
+            <div class="row">
+              <img src="/assets/Tex_calculator.png" alt="Image Description" width="400px"  height="200px">
+            </div><br>
+            <div class="row">
+              <p>This project Icet course work. it is use taxt calculation.</br></p>
+            </div>
+            <span class="col-md-4"><strong>Java</strong></span>
+          </div>
+        </div>
+
       </div>
       <div class="text-center m-4">
         <button id="prevBtn" class="btn btn-dark m-2">Previous</button>
