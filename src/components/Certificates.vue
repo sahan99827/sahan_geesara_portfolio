@@ -25,6 +25,9 @@
     <div class="col-md-4 mb-5">
       <img class="image" src="/assets/Certificates/7.png" alt="Image Description" width="400px">
     </div>
+    <div class="col-md-4 mb-5">
+      <img class="image" src="/assets/Certificates/8.png" alt="Image Description" width="400px" height="275px">
+    </div>
   </div>
   <div class="text-center m-4">
     <button id="prev" class="btn btn-dark m-2">Previous</button>
