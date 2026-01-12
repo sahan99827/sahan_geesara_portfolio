@@ -5,46 +5,46 @@
   </div>
   <div class="row justify-content-center mt-5 mb-5" id="cetificateContainer">
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/1.jpeg" alt="Image Description" width="400px">
+      <img class="image" src="/assets/Certificates/1.jpeg" alt="certificate 1" width="400px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/2.jpeg" alt="Image Description" width="400px">
+      <img class="image" src="/assets/Certificates/2.jpeg" alt="certificate 2" width="400px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/3.jpeg" alt="Image Description" width="400px">
+      <img class="image" src="/assets/Certificates/3.jpeg" alt="certificate 3" width="400px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/4.jpeg" alt="Image Description" width="400px" height="290px">
+      <img class="image" src="/assets/Certificates/4.jpeg" alt="certificate 4" width="400px" height="290px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/5.jpeg" alt="Image Description" width="400px">
+      <img class="image" src="/assets/Certificates/5.jpeg" alt="certificate 5" width="400px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/6.jpg" alt="Image Description" width="400px">
+      <img class="image" src="/assets/Certificates/6.jpg" alt="certificate 6" width="400px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/7.png" alt="Image Description" width="400px">
+      <img class="image" src="/assets/Certificates/7.png" alt="certificate 7" width="400px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/8.png" alt="Image Description" width="400px" height="275px">
+      <img class="image" src="/assets/Certificates/8.png" alt="certificate 8" width="400px" height="275px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/9.png" alt="Image Description" width="400px" height="275px">
+      <img class="image" src="/assets/Certificates/9.png" alt="certificate 9" width="400px" height="275px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/10.png" alt="Image Description" width="400px" height="275px">
+      <img class="image" src="/assets/Certificates/10.png" alt="certificate 10" width="400px" height="275px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/11.png" alt="Image Description" width="400px" height="275px">
+      <img class="image" src="/assets/Certificates/11.png" alt="certificate 11" width="400px" height="275px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/12.png" alt="Image Description" width="400px" height="275px">
+      <img class="image" src="/assets/Certificates/12.png" alt="certificate 12" width="400px" height="275px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/13.png" alt="Image Description" width="400px" height="275px">
+      <img class="image" src="/assets/Certificates/13.png" alt="certificate 13" width="400px" height="275px">
     </div>
     <div class="col-md-4 mb-5">
-      <img class="image" src="/assets/Certificates/14.png" alt="Image Description" width="400px" height="275px">
+      <img class="image" src="/assets/Certificates/14.png" alt="certificate 14" width="400px" height="275px">
     </div>
   </div>
   <div class="text-center m-4">
