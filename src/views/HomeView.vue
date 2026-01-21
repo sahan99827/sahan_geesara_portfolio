@@ -31,4 +31,5 @@ import Certificates from "@/components/Certificates.vue";
     align-items: center;
   }
 }
+
 </style>

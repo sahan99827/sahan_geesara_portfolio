@@ -45,7 +45,7 @@ import {RouterView } from 'vue-router'
       </div>
     </nav>
   </div>
-  <div>
+  <div >
     <RouterView />
   </div>
 </template>
@@ -58,5 +58,9 @@ nav {
   font-family: Arial,serif;
   right: 0;
 }
+.homepage{
+  margin-top: 80px;
+  background-color: beige;
+} 
 
 </style>

@@ -65,6 +65,7 @@
   .card{
     margin-left: 75px!important;
     width: 13rem !important;
+    border: rgb(50, 10, 250) 2px solid;
   }
 }
 img{
@@ -73,8 +74,8 @@ img{
   border: rgb(253, 0, 0) 6px solid;
 }
 .card{
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow effect */
-
+  box-shadow: 0px 10px 20px rgba(240, 5, 5, 0.3); /* Adds a shadow effect */
+  border: rgb(250, 10, 10) 2px solid;
 }
 </style>
 <script setup>
