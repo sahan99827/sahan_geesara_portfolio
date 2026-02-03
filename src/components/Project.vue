@@ -102,7 +102,7 @@
             </div><br>
             <div class="row">
               <p>vew the cuntry details and each city wether.This project Icet course work</p>
-              <p>Visi site Demo => <a href="https://sahan99827.github.io/CuntryWeb/">Country Explorer</a></p>
+              <p>Visi site Demo => <a href="https://sahangeesara.github.io/CuntryWeb/">Country Explorer</a></p>
             </div>
             <span class="col-md-4"><strong>Bootstrap</strong> </span> <span
               class="col-md-4"><strong>HTML/CSS</strong></span>
@@ -118,7 +118,7 @@
             </div><br>
             <div class="row">
               <p>vew the movie reiew and meal  reaw this web page use. This project Icet course work</p>
-              <p>Visi site Demo => <a href="https://sahan99827.github.io/Meal_OM_web_page/index.html">Movie and Meal Hub</a></p>
+              <p>Visi site Demo => <a href="https://sahangeesara.github.io/Meal_OM_web_page/index.html">Movie and Meal Hub</a></p>
             </div>
             <span class="col-md-4"><strong>Bootstrap</strong> | </span> <span
               class="col-md-4"><strong>HTML/CSS</strong> | </span>
@@ -136,7 +136,7 @@
               <p>This project Icet course work. it is use login to cashiar and thiar can send order can view order.<br>
                 Order has plase to with or without customer <br>
               add to product and customer system save to local strage in web browser.</br></p>
-              <p>Visi site Demo => <a href="https://sahan99827.github.io/Ch_Post_system/index.html">FashionRack POS</a></p>
+              <p>Visi site Demo => <a href="https://sahangeesara.github.io/Ch_Post_system/index.html">FashionRack POS</a></p>
             </div>
             <span class="col-md-4"><strong>Bootstrap</strong> | </span> <span
               class="col-md-4"><strong>HTML/CSS</strong> | </span>
@@ -167,7 +167,7 @@
             </div><br>
             <div class="row">
               <p>This project Icet course work. it is use taxt calculation.</br></p>
-              <p>Visi site Demo => <a href="https://sahan99827.github.io/Tax_Calculator_system/">Tex Calculator</a></p>
+              <p>Visi site Demo => <a href="https://sahangeesara.github.io/Tax_Calculator_system/">Tex Calculator</a></p>
 
             </div>
             <span class="col-md-4"><strong>Java</strong></span>
