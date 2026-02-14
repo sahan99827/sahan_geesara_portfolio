@@ -46,6 +46,12 @@
     <div class="col-md-4 mb-5">
       <img class="image" src="/assets/Certificates/14.png" alt="certificate 14" width="400px" height="275px">
     </div>
+    <div class="col-md-4 mb-5">
+      <img class="image" src="/assets/Certificates/15.png" alt="certificate 14" width="400px" height="275px">
+    </div>
+    <div class="col-md-4 mb-5">
+      <img class="image" src="/assets/Certificates/16.png" alt="certificate 14" width="400px" height="275px">
+    </div>
   </div>
   <div class="text-center m-4">
     <button id="prev" class="btn btn-dark m-2">Previous</button>
